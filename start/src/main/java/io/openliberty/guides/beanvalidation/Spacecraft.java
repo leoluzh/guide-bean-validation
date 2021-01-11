@@ -41,7 +41,6 @@ public class Spacecraft implements Serializable {
 	@ToString.Include
 	private Astronaut astronaut;
 	
-	@Singular
 	private Map<@NotBlank String, @Positive Integer> destinations; 
 	
 	@SerialNumber
