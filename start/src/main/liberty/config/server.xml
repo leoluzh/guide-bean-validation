@@ -11,7 +11,9 @@
     <variable name="default.https.port" defaultValue="9443"/>
     <variable name="app.context.root" defaultValue="Spacecraft"/>
 
-    <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
+    <httpEndpoint 
+    	httpPort="${default.http.port}" 
+    	httpsPort="${default.https.port}"
         id="defaultHttpEndpoint" host="*" />
 
    <webApplication location="guide-bean-validation.war" contextRoot="${app.context.root}"/>

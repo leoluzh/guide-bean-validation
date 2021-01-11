@@ -15,4 +15,5 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/beanvalidation")
 public class BeanValidationApp extends Application {
+	
 }
